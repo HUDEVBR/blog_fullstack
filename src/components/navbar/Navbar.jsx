@@ -39,9 +39,7 @@ const links = [
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <Link href="/" className={styles.logo}>
-        HUDEVBR
-      </Link>
+      <Link href="/" className={styles.logo}>HUDEVBR</Link>
       <div className={styles.links}>
         {links.map((link) => (
           <Link key={link.id} href={link.url} className={styles.link}>{link.title}</Link>
@@ -50,8 +48,8 @@ const Navbar = () => {
           className={styles.logout}
           onClick={() => {
             console.log("logged out")
-          }
-          }>
+          }}
+        >
           Logout
         </button>
       </div>
