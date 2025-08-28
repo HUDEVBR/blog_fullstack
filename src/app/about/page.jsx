@@ -7,9 +7,8 @@ const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image src= "/1.png"
-          width={5}
-          height={5}
+        <Image src="https://images.pexels.com/photos/16592498/pexels-photo-16592498.jpeg?_gl=1*j18v24*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTYxNjk2OTAkbzMkZzEkdDE3NTYxNjk5MTIkajU5JGwwJGgw"
+          fill={true}
           alt=''
           className={styles.img}
         />
@@ -26,7 +25,11 @@ const About = () => {
             mollitia asperiores excepturi soluta quaerat enim
             accusamus explicabo autem numquam! Corporis
             repellat neque deleniti? Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. Distinctio, eaque, voluptatibus
+            consectetur adipisicing elit. Distinctio, eaque, voluptatibus Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            perspiciatis voluptatem excepturi vero vitae, exercitationem eius
+            explicabo voluptas nisi mollitia. Modi veritatis consequatur enim
+            at dolorem deserunt sint sed saepe!
             <br />
             <br />
             impedit quia fuga aperiam alias nihil ratione, nemo
@@ -36,22 +39,22 @@ const About = () => {
             similique optio quam totam qui dolores tempore aperiam,
             assumenda aliquid natus nam cum reprehenderit
             asperiores doloribus laudantium libero molestias?</p>
-          <h2></h2>
         </div>
         <div className={styles.item}>
           <h1 className={styles.title}>What We Do?</h1>
-          <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dicta sunt saepe assumenda harum, in maxime, id iste
-              molestias hic quam ipsam ad veritatis omnis laborum,
-              est laudantium. Iusto, a soluta! Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Eius doloremque
-              maxime nemo laudantium, doloribus corrupti voluptate
-              itaque quis, molestias dolor voluptatem numquam eos
-              facilis amet sed. Odit velit quos assumenda.
-            <br />
-            <br /> - Dynamic Websites - Fast and Handy Mobile
-          </p>
+            <p className={styles.desc}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dicta sunt saepe assumenda harum, in maxime, id iste
+                molestias hic quam ipsam ad veritatis omnis laborum,
+                est laudantium. Iusto, a soluta! Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Eius doloremque
+                maxime nemo laudantium, doloribus corrupti voluptate
+                itaque quis, molestias dolor voluptatem numquam eos
+            facilis amet sed. Odit velit quos assumenda.
+            <br /><br /> - Creative Illustrations
+            <br /><br /> - Dynamic Websites
+            <br /><br /> - Fast and Handy Mobile Apps
+            </p>
           <Button url='/contact' text='Contact' />
         </div>
       </div>
