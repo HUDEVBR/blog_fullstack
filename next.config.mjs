@@ -6,7 +6,8 @@ const nextConfig = {
             'example.com',
             'static1.cbrimages.com',
             'www.loubagel.com',
-            'invogames.s3.us-east-2.amazonaws.com'
+            'invogames.s3.us-east-2.amazonaws.com',
+            'static.vecteezy.com'
         ]
     }
 };
