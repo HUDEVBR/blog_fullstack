@@ -1,18 +1,26 @@
 import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
+import { notFound } from 'next/navigation';
 
-const BlogPost = () => {
+async function getData(slug) {
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${slug}`, {
+    cache: 'no-store',
+  });
+  if (!res.ok) {
+    return notFound
+  }
+
+  return res.json();
+}
+
+const BlogPost = async ({ params }) => {
+  const data = await getData(params.slug)
   return (
     <div className={styles.container}>
       <div className={styles.top}>
         <div className={styles.info}>
-          <h1 className={styles.title}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Adipisci ipsa hic, provident omnis id dicta vero reiciendis
-            ab ducimus impedit dolorum eligendi aliquid dolorem, illum
-            veniam laboriosam sapiente tempore iste.
-          </h1>
+          <h1 className={styles.title}>{data.title}</h1>
           <p className={styles.desc}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
             eveniet voluptate minus aperiam cumque, et veniam quisquam
@@ -29,8 +37,8 @@ const BlogPost = () => {
             <Image
               src="https://static.vecteezy.com/system/resources/previews/019/879/186/non_2x/user-icon-on-transparent-background-free-png.png"
               alt=''
-              width={20}
-              height={15}
+              width={40}
+              height={40}
               className={styles.avatar}
             />
             <span className={styles.username}>John Doe</span>
@@ -40,8 +48,7 @@ const BlogPost = () => {
           <Image
             src='https://images.pexels.com/photos/33521067/pexels-photo-33521067.jpeg?_gl=1*1m7ki4y*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY0MjE3NjAkbzUkZzEkdDE3NTY0MjI2NjIkajYwJGwwJGgw'
             alt=''
-            width={500}
-            height={400}
+            fill={true}
             className={styles.image}
           />
         </div>
