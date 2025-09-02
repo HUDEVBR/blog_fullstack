@@ -1,0 +1,80 @@
+export const items = {
+    applications: [
+        {
+            id: 1,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/2142424/pexels-photo-2142424.jpeg?_gl=1*zuixwn*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NzAxOTAkbzckZzEkdDE3NTY3NzAyODEkajU5JGwwJGgw',
+        },
+        {
+            id: 2,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/2388936/pexels-photo-2388936.jpeg?_gl=1*1qhtjus*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NzAxOTAkbzckZzEkdDE3NTY3NzAyNDAkajEwJGwwJGgw',
+        },
+        {
+            id: 3,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?_gl=1*1xu0idy*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NzAxOTAkbzckZzEkdDE3NTY3NzAyMTUkajM1JGwwJGgw',
+        },
+        {
+            id: 4,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?_gl=1*1pi94ci*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NzAxOTAkbzckZzEkdDE3NTY3NzAxOTkkajUxJGwwJGgw',
+        },
+    ],
+    games: [
+        {
+            id: 1,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/243698/pexels-photo-243698.jpeg?_gl=1*29fbd1*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NzAxOTAkbzckZzEkdDE3NTY3NzIwNDQkajU4JGwwJGgw',
+        },
+        {
+            id: 2,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/228963/pexels-photo-228963.jpeg?_gl=1*1jjoomv*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NzAxOTAkbzckZzEkdDE3NTY3NzE5ODgkajQ5JGwwJGgw',
+        },
+        {
+            id: 3,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/3977908/pexels-photo-3977908.jpeg?_gl=1*36o71d*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NzAxOTAkbzckZzEkdDE3NTY3NzE5NzckajYwJGwwJGgw',
+        },
+        {
+            id: 4,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?_gl=1*16y3yxl*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NzAxOTAkbzckZzEkdDE3NTY3NzE5ODIkajU1JGwwJGgw',
+        },
+    ],
+    websites: [
+        {
+            id: 1,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/5082581/pexels-photo-5082581.jpeg?_gl=1*1m9l4mb*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NjI2OTMkbzYkZzEkdDE3NTY3NjMyODMkajUzJGwwJGgw',
+        },
+        {
+            id: 2,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?_gl=1*1m9l4mb*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NjI2OTMkbzYkZzEkdDE3NTY3NjMyODMkajUzJGwwJGgw',
+        },
+        {
+            id: 3,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/811587/pexels-photo-811587.jpeg?_gl=1*1m9l4mb*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NjI2OTMkbzYkZzEkdDE3NTY3NjMyODMkajUzJGwwJGgw',
+        },
+        {
+            id: 4,
+            title: "Creative Portfolio",
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio ac augue varius cursus nec dictum nisl. Sed maximus bibendum arcu, eu tempus metus. Morbi facilisis leo id sodales blandit. Nam sem lacus, fermentum et quam non, blandit fermentum nisl. Integer vehicula sapien eget tortor dignissim vulputate. Donec eget egestas felis, vitae mattis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum consectetur varius. ',
+            image: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?_gl=1*1m9l4mb*_ga*MjcwMzk2MTIyLjE3NTU5MDI1MTk.*_ga_8JE65Q40S6*czE3NTY3NjI2OTMkbzYkZzEkdDE3NTY3NjMyODMkajUzJGwwJGgw',
+        }
+    ]
+}
