@@ -3,6 +3,11 @@ import styles from './page.module.css'
 import Image from 'next/image'
 import Button from '@/components/Button/Button'
 
+export const metadata = {
+  title: "HUDEV Contact",
+  description: "This is the contact page of the best developer",
+};
+
 const Contact = () => {
   return (
     <div className={styles.container}>
