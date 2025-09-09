@@ -7,8 +7,10 @@ const nextConfig = {
             'static1.cbrimages.com',
             'www.loubagel.com',
             'invogames.s3.us-east-2.amazonaws.com',
-            'static.vecteezy.com'
-        ]
+            'static.vecteezy.com',
+            'labetno.ufpa.br'
+        ],
+        unoptimized: true,
     }
 };
 

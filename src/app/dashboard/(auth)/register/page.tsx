@@ -40,26 +40,26 @@ const Register = () => {
       <form action="" className={styles.form} onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder='username'
+        placeholder='nome de usuário'
         className={styles.input}
         required
       />
       <input
         type="email"
-        placeholder='email'
+        placeholder='e-mail'
         className={styles.input}
         required
       />
       <input
-        type="password"
-        placeholder='password'
+        type="senha"
+        placeholder='senha'
         className={styles.input}
         required
       />
-      <button className={styles.button}>Register</button>
+      <button className={styles.button}>Registre-se</button>
       </form>
       {Error && "Algo ocorreu de errado"}
-      <Link href='/dashboard/login'>Login with an existing account</Link>
+      <Link href='/dashboard/login' className={styles.buttonRegister}>Registrar-se com conta já existente</Link>
     </div>
   )
 }
