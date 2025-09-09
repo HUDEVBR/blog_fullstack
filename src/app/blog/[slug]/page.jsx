@@ -4,7 +4,8 @@ import Image from 'next/image'
 import { notFound } from 'next/navigation';
 
 async function getData(slug) {
-  const res = await fetch(`http://localhost:3000/api/posts/${slug}`, {
+  const baseUrl = process.env.NEXTAUTH_URL || "http://localhost:3000";
+  const res = await fetch(`${baseUrl}/api/posts/${slug}`, {
     cache: 'no-store',
   });
   if (!res.ok) {
