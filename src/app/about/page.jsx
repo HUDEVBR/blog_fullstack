@@ -13,49 +13,44 @@ const About = () => {
           className={styles.img}
         />
         <div className={styles.imgText}>
-          <h1 className={styles.imgTitle}> Digital Storytellers</h1>
-          <h2 className={styles.imgDesc}>Handcrafting award winning digital experiences</h2>
+          <h1 className={styles.imgTitle}>Transformando Ideias em Tecnologia</h1>
+          <h2 className={styles.imgDesc}>Sistemas, aplicativos e soluções digitais sob medida</h2>
         </div>
       </div>
       <div className={styles.textContainer}>
         <div className={styles.item}>
-          <h1 className={styles.title}>Who Are We?</h1>
-          <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Minus nihil ratione ipsum non ut laborum, corporis
-            mollitia asperiores excepturi soluta quaerat enim
-            accusamus explicabo autem numquam! Corporis
-            repellat neque deleniti? Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. Distinctio, eaque, voluptatibus Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            perspiciatis voluptatem excepturi vero vitae, exercitationem eius
-            explicabo voluptas nisi mollitia. Modi veritatis consequatur enim
-            at dolorem deserunt sint sed saepe!
+          <h1 className={styles.title}>Quem Somos?</h1>
+          <p className={styles.desc}>
+            Apaixonado por tecnologia e inovação, focado no desenvolvimento de
+            soluções modernas e eficientes, com experiência em
+            desenvolvimento full stack, criando sistemas e aplicativos que
+            entregam valor, escalabilidade e performance para nossos clientes.
             <br />
             <br />
-            impedit quia fuga aperiam alias nihil ratione, nemo
-            doloremque nostrum? Esse placeat ipsum deserunt
-            at ex ipsam quo reiciendis. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Quasi voluptates dignissimos
-            similique optio quam totam qui dolores tempore aperiam,
-            assumenda aliquid natus nam cum reprehenderit
-            asperiores doloribus laudantium libero molestias?</p>
+            O trabalho vai desde a construção de serviços robustos no
+            back-end até a criação de interfaces intuitivas e responsivas no
+            front-end. Unindo criatividade e conhecimento técnico, transformamos
+            ideias em produtos digitais reais que resolvem problemas do dia a dia.
+          </p>
         </div>
+
         <div className={styles.item}>
-          <h1 className={styles.title}>What We Do?</h1>
-            <p className={styles.desc}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dicta sunt saepe assumenda harum, in maxime, id iste
-                molestias hic quam ipsam ad veritatis omnis laborum,
-                est laudantium. Iusto, a soluta! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Eius doloremque
-                maxime nemo laudantium, doloribus corrupti voluptate
-                itaque quis, molestias dolor voluptatem numquam eos
-            facilis amet sed. Odit velit quos assumenda.
-            <br /><br /> - Creative Illustrations
-            <br /><br /> - Dynamic Websites
-            <br /><br /> - Fast and Handy Mobile Apps
-            </p>
-          <Button url='/contact' text='Contact' />
+          <h1 className={styles.title}>O Que Fazemos?</h1>
+          <p className={styles.desc}>
+            Especializado em desenvolver soluções digitais que se adaptam
+            a diferentes necessidades e mercados. Nossa stack inclui tecnologias
+            como <strong>TypeScript, Next.js, React, Node.js, PostgreSQL</strong> e
+            ferramentas de automação como <strong>n8n</strong> para otimizar fluxos de
+            trabalho.
+            <br /><br /> - Desenvolvimento de Sistemas Sob Medida
+            <br /><br /> - Aplicativos Web e Mobile
+            <br /><br /> - Criação e Integração de APIs
+            <br /><br /> - Automação de Processos e Dashboards
+            <br /><br /> - Soluções Escaláveis e Preparadas para a Nuvem
+          </p>
+
+          <br></br>
+          <Button url='/contact' text='Contato' />
         </div>
       </div>
     </div>

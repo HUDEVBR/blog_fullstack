@@ -23,12 +23,12 @@ const links = [
   },
   {
     id: 4,
-    title: "About",
+    title: "Sobre",
     url: "/about",
   },
   {
     id: 5,
-    title: "Contact",
+    title: "Contato",
     url: "/contact",
   },
   {

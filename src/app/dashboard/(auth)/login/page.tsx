@@ -38,13 +38,13 @@ const Login = () => {
       />
       <input
         type="password"
-        placeholder='password'
+        placeholder='senha'
         className={styles.input}
         required
       />
       <button className={styles.button}>Login</button>
       </form>
-      <button onClick={() => signIn('google')}>Login with Google</button>
+      <button onClick={() => signIn('google')}>Login com Google</button>
     </div>
   )
 }
