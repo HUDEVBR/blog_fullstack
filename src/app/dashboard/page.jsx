@@ -77,12 +77,12 @@ const Dashboard = () => {
       ))}
       </div>
       <form className={styles.new} onSubmit={handleSubmit}>
-        <h1>Add new Post</h1>
+        <h1>Adicionar novas postagens</h1>
       <input type="text" placeholder='Título' className={styles.input} />
       <input type="text" placeholder='Descrição' className={styles.input} />
       <input type="text" placeholder='Insira o link de uma imagem' className={styles.input} />
       <textarea
-        placeholder='Content'
+        placeholder='Insira o conteúdo aqui...'
         className={styles.textArea}
         cols='30'
         rows='10'></textarea>
