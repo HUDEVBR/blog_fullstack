@@ -15,11 +15,13 @@ const getData = (cat) => {
   return notFound()
 }
 
-const Category = ({ params }) => {
-  const data = getData(params.category);
+export default async function Category({ params }) {
+  const {category} = await params
+  const data = getData(category);
+
   return (
     <div className={styles.container}>
-      <h1 className={styles.catTitle}>{params.category}</h1>
+      <h1 className={styles.catTitle}>{category}</h1>
 
       {data.map((item) => (
         <div className={styles.item} key={item.id}>
@@ -33,7 +35,8 @@ const Category = ({ params }) => {
             className={styles.img}
             fill={true}
             alt=''
-            src={item.image}
+              src={item.image}
+              objectFit='contain'
           />
         </div>
       </div>
@@ -41,5 +44,3 @@ const Category = ({ params }) => {
     </div>
   );
 }
-
-export default Category
